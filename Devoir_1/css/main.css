@@ -1,0 +1,22 @@
+body {
+    background-color:black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    position: sticky;
+    top: 0px;
+}
+
+nav > ul li {
+    display: inline;
+    
+}
+
+.slide img {
+    width: 120%;
+    height: 220px;
+}

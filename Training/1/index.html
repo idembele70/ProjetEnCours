@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon_premier_Site</title>
+</head>
+
+<body>
+    <header>
+        <a href="/">
+            <img onerror="this.src = './assets/riyad_mahrez.jpeg'" src="./assets/riyad_mahrez.jpeg"
+                alt="photo de riyad mahrez" width="400">
+        </a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Bienvenue sur mon site !</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur quas molestias, ratione consequatur
+            repudiandae harum voluptas sunt molestiae quaerat debitis dignissimos tenetur, nostrum asperiores magni
+            assumenda ipsum quis deleniti?</p>
+    </section>
+    <section id="presentation">
+        <h2>Qui sommes-nous ?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur quas molestias, ratione consequatur
+            repudiandae harum voluptas sunt molestiae quaerat debitis dignissimos tenetur, nostrum asperiores magni
+            assumenda ipsum quis deleniti?</p>
+    </section>
+    <section id="service">
+        <h2>Nos prestations</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur quas molestias, ratione consequatur
+            repudiandae harum voluptas sunt molestiae quaerat debitis dignissimos tenetur, nostrum asperiores magni
+            assumenda ipsum quis deleniti?</p>
+    </section>
+    <section id="contact">
+        <h2>Nous contacter</h2>
+        <form action=>
+            <fieldset>
+                <legend>Informations</legend>
+                <div>
+                    <p>Civilités</p>
+                    <label>
+                        Monsieur
+                        <input type="radio" name="civ">
+                    </label>
+                    <label>
+                        Madame
+                        <input checked type="radio" name="civ">
+                    </label>
+                </div>
+                <div>
+                    <label for="ln">
+                        Nom:
+                        <input type="text" name="lastname" autofocus required>
+                    </label>
+                </div>
+                <div>
+                    <label for="fn">
+                        Prénom:
+                        <input type="text" name="firstname">
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Message
+                </legend>
+                <div>
+                    <label>
+                        Sujet:
+                        <input type="text" name="sujet">
+                    </label>
+                </div>
+                <label>
+                    Message:
+                    <textarea name="message" id="" cols="30" rows="10" autofocus required></textarea>
+                </label>
+
+            </fieldset>
+            <input type="submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; IKD</p>
+    </footer>
+</body>
+
+</html>
