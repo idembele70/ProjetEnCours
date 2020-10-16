@@ -1,0 +1,44 @@
+footer {
+    background-color : var(--bgFooterColor);
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+footer h4, footer h2 {
+text-align: center;
+}
+
+footer h4 {
+background-color: var(--bgTitle);
+margin-right: 44%;
+margin-left: 44%;
+}
+
+footer h2 {
+    margin-top: -20px;
+    text-transform: uppercase;
+}
+.coordonnee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: ".mail .telephone .location";
+    margin: 10px;
+}
+
+.mail::before {
+content: "📩  ";
+}
+.telephone::before {
+content: "📞  ";
+}
+.location::before {
+content: " 📍  ";
+}
+
+.reseauxSociaux {
+    text-align: center;
+}
+
+.reseauxSociaux > a {
+margin-right: -30px;
+} 

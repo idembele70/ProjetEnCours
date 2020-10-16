@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dembele_Portfolio</title>
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+
+<body>
+    <div id="slideConteneur">
+        <section id="hero">
+            <img src="./src/assets/images/photoDeMoi-Carré.png" alt="photo de ibrahim DEMBELE">
+            <h1>IBRAHIM DEMBELE</h1>
+            <p> <em> Développeur Full stack</em></p>
+        </section>
+    </div>
+
+    <header>
+        <div class="logo">
+            <a href="#logo">
+                <img src="./src/assets/images/logoikdembeleBlanc.png" alt="logo " width="90px">
+            </a>
+        </div>
+        <nav class="menuPrincipale">
+            <ul>
+                <li><a href="#slideConteneur">Accueil</a></li>
+                <li><a href="#aPropos">A Propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#mesTravaux">Mes travaux</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="aPropos">
+        <span class="behindH2APropos"></span>
+        <h2>A propos</h2>
+        <p>Je m'appele ibrahim Dembele, titulaire d'un BTS <a href="#">SN-IR</a> <br>
+            Je suis étudiant en bachelor <a
+                href="https://ort-france.fr/nos-formations/metier-du-numerique-et-informatique/bachelor-csi-concepteur-de-systemes-d-information"
+                title="présentation de la formation">concepteur de système d'informations</a> option développement web.
+            <br>
+            Ma rigueur et ma qualité d'adaptation m'ont permis de mener a bout mes divers missions,
+            durant mes 6 Semaines de stages au poste développeur web et d'applications mobiles à <a
+                href="https://sii-group.com/fr-FR/sii-en-bref">SII</a>. </p>
+        <fieldset class="aProposField">
+            <legend> Informations</legend>
+            <div class="info1">
+                <p>Age: 19 ans </p>
+                <p>Téléphone: 06 34 39 94 16</p>
+                <p>Expérience: 6 semaines</p>
+                <p> Skype: ikddembele</p>
+            </div>
+            <div class="info2">
+                <p>Permis: B </p>
+                <p>Adresse: Toulouse, France</p>
+                <p>Disponibilité: dès aujourd'hui </p>
+                <p class="gitHub" onclick="gitHub()">GitHub: https://github.com/idembele70/</p>
+            </div>
+        </fieldset>
+        <a id="cvButton" href="./src/assets/images/DEMBELE_CV_Dev_Web.pdf" download>Télécharger mon CV</a>
+    </section>
+    <section id="services">
+        <span class="behindH2Services"></span>
+        <h2> Mes Services</h2>
+        <span class="listeServices">
+            <div class="service1Html">
+                <img id="logoHtml" src="./src/assets/images/html1.svg.png" alt="logo html">
+                <h3> FRONT END</h3>
+                <ul>
+                    <li>Structuration du site</li>
+                    <li>Nom d'attribut cohérent</li>
+                    <li>Code lisible</li>
+                </ul>
+            </div>
+            <div class="service2Css">
+                <img id="logoCss" src="./src/assets/images/css1.svg.png" alt="logo css">
+                <h3> FRONT END</h3>
+                <ul>
+                    <li>Un site plus beau</li>
+                    <li>Un site unique</li>
+                </ul>
+            </div>
+            <div class="service3Js">
+                <img id="logoJs" src="./src/assets/images/js1.png" alt="logo jss">
+                <h3> FRONT END</h3>
+                <ul>
+                    <li>Un site dynamique</li>
+                </ul>
+            </div>
+            <div class="service4Php">
+                <img id="logoPhp" src="./src/assets/images/php1.svg.png" alt="">
+                <h3>BACK END</h3>
+                <ul>
+                    <li>Partie serveur</li>
+                </ul>
+            </div>
+        </span>
+    </section>
+
+    <section id="mesTravaux">
+        <span class="behindH2MesTravaux"></span>
+        <h2> Mes travaux</h2>
+        <div id="mesTravauxSlide">
+            <img id="sliderMainImg" src="./src/assets/images/todoimg1.png" alt="" width="480px">
+            <div id="prev" onclick="changerSlide(-1) "></div>
+            <div id="next" onclick="changerSlide(1) "></div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h4>entrons en contact... </h4>
+        <h2>Contact</h2>
+        <div class="coordonnee">
+            <p class="mail">idembele70@gmail.com</p>
+            <p class="telephone">06 34 39 94 16</p>
+            <p class="location">2 rue Raoul Pochon, 31500 TOULOUSE </p>
+        </div>
+        <div class="reseauxSociaux">
+            <a href="https://fr-fr.facebook.com/Playmaker1710"><img src="./src/assets/images/facebook-logo.png"
+                    alt="logo de facebook"></a>
+            <a href="https://www.instagram.com/playmaker1710/"><img src="./src/assets/images/instagram-logo.png"
+                    alt="logo de instagram"></a>
+            <a href="https://www.linkedin.com/in/ibrahim-dembele-2a91351b3/"><img
+                    src="./src/assets/images/linkedin-logo.png" alt="logo de linkedin"></a>
+            <a href="https://www.behance.net/ibrahimdembele"><img src="./src/assets/images/behance-logo.png"
+                    alt="logo de behance"></a>
+        </div>
+        <p>&copy; PLAYMAKER1710</p>
+    </footer>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
