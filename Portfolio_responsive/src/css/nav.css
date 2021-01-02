@@ -1,0 +1,7 @@
+#logoNav {
+    width: 50px;
+}
+
+.navDropDownMenu > a:hover {
+    background-color: var(--bgMainColor);
+}

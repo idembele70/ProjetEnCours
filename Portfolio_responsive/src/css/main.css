@@ -9,9 +9,10 @@
 --textColor : white;
 --bgFooterColor:rgba(0, 0, 0, 0.603);
 --bgMainColor:rgba(0, 0, 0, 0.863);
---bgServicesDiv : rgba(241, 232, 232, 0.253)
+--bgServicesDiv : rgba(241, 232, 232, 0.151);
 --navTextColor: white;
 --paddingSection : 110px;
+--bgSection : #a49424;
 }
 body {
     margin: 0;
@@ -28,7 +29,7 @@ body {
     right: 0;
     top: 0%;
     width: 100%;
-    height: 480px;
+    height: 460px;
     animation: slideAnimate 20s ease-in-out infinite;
     background-size: cover;
 }

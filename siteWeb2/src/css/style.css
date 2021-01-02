@@ -1,0 +1,12 @@
+@import './header.css';
+@import './nav.css';
+
+:root {
+
+}
+
+body {
+    background-color: black;
+    width: 900px;
+    margin: auto;
+}

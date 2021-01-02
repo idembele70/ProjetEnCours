@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dembele_Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div id="slideConteneur">
+            <section id="hero">
+                <div class="row">
+                    <img class="col-12" src="./src/assets/images/maPhoto.png" alt="photo de ibrahim DEMBELE">
+                    <h1 class="col-12">IBRAHIM DEMBELE</h1>
+                    <p class="col-12"> <em> Développeur Full stack</em></p>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <a class="navbar-brand" href="#"><img src="./src/assets/images/logoikdembeleBlanc.png" id="logoNav"
+                    alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#accueil">Accueil <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#aPropos">A Propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#services">Mes services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mes travaux
+                        </a>
+                        <div class="dropdown-menu bg-transparent navDropDownMenu col-1"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item text-white" href="#">TodoList</a>
+                            <a class="dropdown-item text-white" href="#">Blog</a>
+                            <a class="dropdown-item text-white" href="#">Portfolio</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="aPropos">
+            <span class="behindH2APropos"></span>
+            <h2> <em>A propos</em></h2>
+            <div class="brefPresentation col-12">
+                <p>Je m'appelle Ibrahim Dembele, titulaire d'un BTS <a
+                        href="https://www.cfi-formations.fr/accueil-reseaux-genie-informatique/bts-systemes-numeriques-option-a-informatique-reseaux-snir/">SN-IR</a>
+                    en formation continue, </p>
+                <p>je suis étudiant en bachelor <a>
+                        <a href="https://ort-france.fr/nos-formations/metier-du-numerique-et-informatique/bachelor-csi-concepteur-de-systemes-d-information"
+                            title="présentation de la formation">concepteur de système d'informations</a> option
+                        développement web.
+                </p>
+                <p>
+                    Ma rigueur et ma capacité d'adaptation m'ont permis de mener à bout mes diverses missions
+                    durant mes 6 semaines de stages au poste développeur web et d'applications mobiles à <a
+                        href="https://sii-group.com/fr-FR/sii-en-bref">SII</a>. </p>
+            </div>
+            <fieldset class="aProposField">
+                <legend> Informations</legend>
+                <div class="container">
+                    <div class="row">
+                        <div class="info1 col-12 col-sm-6">
+                            <p id="age">Age: 20 ans </p>
+                            <p>Téléphone: 06 34 39 94 16</p>
+                            <p>Expérience: 6 semaines</p>
+                            <p> Skype: ikddembele</p>
+                        </div>
+                        <div class="info2 col-sm-6">
+                            <p>Permis: B </p>
+                            <p>Adresse: Toulouse, France</p>
+                            <p>Disponibilité: dès aujourd'hui </p>
+                            <p class="gitHub" onclick="gitHub()">GitHub:
+                                <span id="github"> https://github.com/idembele70/ </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </fieldset>
+            <a id="cvButton" href="./src/assets/images/DEMBELE_CV_Dev_Web.pdf" download>Télécharger mon
+                CV</a>
+        </section>
+    </div>
+    <div class="container">
+        <section id="services">
+            <span class="behindH2Services"></span>
+            <h2> Mes Services</h2>
+            <div class="row d-flex justify-content-center">
+                <div class="service1Html col-5">
+                    <img id="logoHtml" src="./src/assets/images/html1.svg.png" alt="logo html">
+                    <h3> FRONT END</h3>
+                    <ul>
+                        <li>Structuration du site</li>
+                        <li>Nom d'attribut cohérent</li>
+                        <li>Code lisible</li>
+                    </ul>
+                </div>
+                <div class="service2Css col-5">
+                    <img id="logoCss" src="./src/assets/images/css1.svg.png" alt="logo css">
+                    <h3> FRONT END</h3>
+                    <ul>
+                        <li>Un site plus beau</li>
+                        <li>Un site unique</li>
+                        <li>Un site responsive</li>
+                    </ul>
+                </div>
+                <div class="service3Js col-5">
+                    <img id="logoJs" src="./src/assets/images/js1.png" alt="logo jss">
+                    <h3> FRONT END</h3>
+                    <ul>
+                        <li>Un site dynamique</li>
+                        <li>Un site interactif</li>
+                    </ul>
+                </div>
+                <div class="service4Php col-5">
+                    <img id="logoPhp" src="./src/assets/images/php1.svg.png" alt="">
+                    <h3>BACK END</h3>
+                    <ul>
+                        <li>Partie serveur</li>
+                        <li>Gestion de base de données</li>
+                        <li>Securisation de base de données</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+    <section id="mesTravaux">
+        <h2> Mes travaux</h2>
+        <div id="mesTravauxSlide">
+            <img class="img-fluid" id="sliderMainImg" src="./src/assets/images/todoimg1.png" alt="" width="480px">
+            <div id="prev" onclick="changerSlide(-1) "></div>
+            <div id="next" onclick="changerSlide(1) "></div>
+        </div>
+    </div>
+    </section>
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <h5>entrons en contact... </h5>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <p class="mail col-sm-4">idembele70@gmail.com</p>
+                <p class="telephone col-sm-4">06 34 39 94 16</p>
+                <p class="location col-sm-4">2 rue Raoul Pochon, 31500 TOULOUSE </p>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <a class="" href="https://fr-fr.facebook.com/Playmaker1710"><img
+                        src="./src/assets/images/facebook-logo.png" alt="logo de facebook"></a>
+                <a class="" href="https://www.instagram.com/playmaker1710/"><img
+                        src="./src/assets/images/instagram-logo.png" alt="logo de instagram"></a>
+                <a class="" href="https://www.linkedin.com/in/ibrahim-dembele-2a91351b3/"><img
+                        src="./src/assets/images/linkedin-logo.png" alt="logo de linkedin"></a>
+            </div>
+            <p>&copy; Ibrahim Dembele</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="./src/js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

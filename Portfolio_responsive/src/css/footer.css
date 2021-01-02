@@ -1,0 +1,32 @@
+ footer {
+background-color : var(--bgFooterColor) ;
+/* min-height: ; */
+margin-top: 30px;
+padding: 10px;
+}
+footer h5 {
+    background-color: var(--bgTitle);
+    min-width: 190px;
+    max-width: 190px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer .row p {
+padding-top: 15px;
+}
+
+.mail::before {
+    content: "📩 : ";
+}
+.telephone::before {
+    content: "📞 : ";
+}
+.location::before {
+    content: " 📍: ";
+}
+
+footer p {
+    text-align: center;
+} 
+

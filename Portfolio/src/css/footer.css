@@ -1,7 +1,7 @@
 footer {
     background-color : var(--bgFooterColor);
     margin-top: 30px;
-    padding-top: 10px;
+    padding-top:var(--paddingSection);
 }
 
 footer h4, footer h2 {
@@ -42,3 +42,7 @@ content: " 📍  ";
 .reseauxSociaux > a {
 margin-right: -30px;
 } 
+
+footer p {
+    text-align: center;
+}
