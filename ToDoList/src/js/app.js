@@ -1,6 +1,11 @@
 // Variables
-let spanJour = document.getElementById('spanJour');
+const spanJour = document.getElementById('spanDay');
+let TodoSaisie = document.querySelector('.todoWrited');
+const btnAddTodo = document.querySelector('.btnAddTodo');
+const ulList = document.getElementById('ulList');
+
 // Ecouteurs
+btnAddTodo.addEventListener('click',addTodo);
 
 // Functions
 function JourDeLaSemaine() {
@@ -34,5 +39,9 @@ function JourDeLaSemaine() {
     }
 spanJour.innerText += " " + day;
 }
+JourDeLaSemaine();
 
-JourDeLaSemaine()
+function addTodo(params) {
+    
+    ulList.innerHTML = TodoSaisie.value;
+}
