@@ -1,0 +1,8 @@
+body {
+background: #04032E;
+}
+
+.blocPage {
+    text-align: center;
+    transform: translateY(50%);
+}
