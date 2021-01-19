@@ -32,7 +32,7 @@ function JourDeLaSemaine() {
             "nothing";
             break;
     }
-spanJour.innerText =day;
+spanJour.innerText += " " + day;
 }
 
 JourDeLaSemaine()

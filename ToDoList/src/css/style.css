@@ -1,8 +1,21 @@
 body {
 background: #04032E;
+font-family: 'Times New Roman', Times, serif;
 }
 
 .blocPage {
     text-align: center;
     transform: translateY(50%);
 }
+
+/* Container */
+#spanJour {
+    color: aliceblue;
+    font-size: 1.4em;
+    margin: 0 auto;
+}
+
+.blockAddTodo input {
+    min-width: 174px;
+}
+
