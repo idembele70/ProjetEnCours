@@ -41,7 +41,11 @@ spanJour.innerText += " " + day;
 }
 JourDeLaSemaine();
 
-function addTodo(params) {
+function addTodo(todoWrited) {
+
     
-    ulList.innerHTML = TodoSaisie.value;
+}
+
+function name(params) {
+    
 }

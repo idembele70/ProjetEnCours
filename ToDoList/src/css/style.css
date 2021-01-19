@@ -19,3 +19,8 @@ font-family: 'Times New Roman', Times, serif;
     min-width: 174px;
 }
 
+.row ul {
+    color: aliceblue;
+    margin: 10px auto;
+    width: 206px ;
+}
