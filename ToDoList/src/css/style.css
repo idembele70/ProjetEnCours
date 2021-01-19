@@ -1,3 +1,7 @@
+:root {
+
+}
+
 body {
 background: #04032E;
 font-family: 'Times New Roman', Times, serif;
@@ -5,7 +9,8 @@ font-family: 'Times New Roman', Times, serif;
 
 .blocPage {
     text-align: center;
-    transform: translateY(50%);
+    margin-top: 40px;
+
 }
 
 /* Container */
@@ -14,13 +19,52 @@ font-family: 'Times New Roman', Times, serif;
     font-size: 1.4em;
     margin: 0 auto;
 }
-
-.blockAddTodo input {
+.addTodoItem{
+    margin: auto;
+}
+.todoWrited {
     min-width: 174px;
+    max-width: 200px;
+    border: none;
+    background: #FFFFFF;
 }
 
+.btnAddTodo {
+    max-width: 41px;
+    min-width: 41px;
+    border: none;
+    background: #FFFFFF;
+}
+
+.btnAddTodo:hover {
+background: black;
+color: white;
+}
+
+.ulRow {
+    margin: 0 auto;
+}
 .row ul {
     color: aliceblue;
-    margin: 10px auto;
-    width: 206px ;
+    width: 211px;
+    margin-top: 10px;
+    list-style-type: none;
 }
+
+.liRow {
+    width: 211px;
+    margin-left: auto;
+}
+
+/* .checked {
+    margin: auto 0;
+} */
+.liInput {
+    margin-left: auto;
+    width: 170px;
+}
+.btnDelete {
+    width: 41px;
+    margin-right:auto;
+}
+
