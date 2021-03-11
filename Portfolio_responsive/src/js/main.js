@@ -5,15 +5,11 @@ function gitHub() {
 }
 
 // slider Section MES TRAVAUX
-var slide = new Array("src/assets/images/todoimg1.png","src/assets/images/todoimg2.png","src/assets/images/todoimg3.png");
-var numero = 0;
+let slide = new Array("src/assets/images/todoimg1.png","src/assets/images/todoimg2.png","src/assets/images/todoimg3.png");
+let numero = 0;
 function changerSlide(sens) {
   numero = numero + sens;
-  if (numero < 0) {
-    numero = slide.length - 1;
-  }
-  if (numero > slide.length -1) {
-    numero = 0;
-  }
+  if (numero < 0) numero = slide.length - 1;
+  if (numero > slide.length -1) numero = 0;
   document.getElementById("sliderMainImg").src = slide[numero];
 }
