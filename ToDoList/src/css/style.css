@@ -42,7 +42,7 @@ color: white;
 }
 
 .ulRow {
-    margin: 0 auto;
+    margin: 10px auto;
 }
 .row ul {
     color: aliceblue;
@@ -67,4 +67,3 @@ color: white;
     width: 41px;
     margin-right:auto;
 }
-

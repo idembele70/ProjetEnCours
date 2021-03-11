@@ -1,8 +1,11 @@
  footer {
 background-color : var(--bgFooterColor) ;
-/* min-height: ; */
 margin-top: 30px;
 padding: 10px;
+}
+footer .row:first-of-type{
+ max-width: 1440px;
+margin: 0 auto;
 }
 footer h5 {
     background-color: var(--bgTitle);

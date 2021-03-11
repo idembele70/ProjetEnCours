@@ -3,6 +3,9 @@
 #slideConteneur {
     position: relative;
 }
+.container {
+    max-width: 1440px;
+}
 #hero > .row {
     position: absolute;
     top: 50%;
@@ -185,11 +188,13 @@ background-color: var(--colorImportant);
     position: relative;
     margin: 0;
     padding: 0%;
+ 
 }
 
 #mesTravauxSlide > img {
 display: block;
 margin: auto ;
+width: 20%;
 }
 
 #prev, #next {

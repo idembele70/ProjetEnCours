@@ -1,7 +1,25 @@
+.navbar {
+    margin: 0 auto;
+    max-width: 90rem;
+
+}
+
 #logoNav {
     width: 50px;
 }
 
 .navDropDownMenu > a:hover {
     background-color: var(--bgMainColor);
+}
+
+@media screen and (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: flex-end;
+    }
+    .navbar * {
+        font-size: 2rem;
+    }
+    #logoNav {
+        width: 100px;
+    }
 }
